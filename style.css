@@ -41,6 +41,7 @@ body {
   margin-top: 3rem;
   padding: 0.5rem;
   border: 1px solid #7899d4;
+  -webkit-border: 1px solid #7899d4;
   text-transform: uppercase;
   text-decoration: none;
   color: #7899d4; }
