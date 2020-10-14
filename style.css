@@ -43,7 +43,9 @@ body {
   border: 1px solid #7899d4;
   -webkit-border: 1px solid #7899d4;
   text-transform: uppercase;
+  -webkit-text-transform: uppercase;
   text-decoration: none;
+  -webkit-text-decoration: none;
   color: #7899d4; }
   .btn:link {
     font-family: 'Noto Sans', sans-serif;
