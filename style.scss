@@ -19,7 +19,7 @@ body {
     ),
     url(./blue-wall.jpg);
   background-size: cover;
-  height: 40rem;
+  height: 60rem;
   background-position: center;
   &__textbox {
     position: absolute;
@@ -41,19 +41,52 @@ body {
     font-weight: 300;
     font-size: 1.5rem;
     color: $main-color;
+    margin-bottom: 1.5rem;
   }
 }
-// @media screen and (max-width: 1000px) {
-//   .textbox__header {
-//     font-size: 7rem;
+.btn {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 3rem;
+  padding: 0.5rem;
+  border: 1px solid $main-color;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: $main-color;
+  &:link {
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 3rem;
+    padding: 0.5rem;
+    border: 1px solid $main-color;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: $main-color;
+  }
+  &:hover {
+    background-color: $main-color;
+    color: white;
+  }
+  &:active {
+    background-color: $main-color;
+    color: white;
+    // transition: all;
+    // animation-name: scale;
+    // animation-duration: 3s;
+  }
+}
+// @keyframes scale {
+//   0% {
+//     transform: scale(0.9px);
 //   }
-//   .textbox__header-secondary {
-//     font-size: 2.5rem;
+//   70% {
+//     transform: scale(1.01px);
+//   }
+//   100% {
+//     transform: scale(1.7px);
 //   }
 // }
 @media screen and (max-height: 900px) {
   .header {
-    height: 20rem;
+    height: 30rem;
   }
   .textbox__header {
     font-size: 5rem;
