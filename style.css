@@ -43,4 +43,8 @@ body {
 
 @media screen and (max-height: 500px) {
   .header {
-    height: 20rem; } }
+    height: 20rem; }
+  .textbox__header {
+    font-size: 5rem; }
+  .textbox__header-secondary {
+    font-size: 1.5rem; } }
